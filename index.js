@@ -2,20 +2,20 @@
 const blackjackButtonEl = document.getElementById("blackjackButton");
 blackjackButtonEl.addEventListener("click", blackjack)
 
-function blackjack(){
-    console.log("bruh")
+function blackjack() {
+    window.location.href = "blackjackdealer.html"
 }
 
 const pokerButtonEl = document.getElementById("pokerButton");
 pokerButtonEl.addEventListener("click", poker)
 
-function poker(){
-    console.log("what the hellionte")
+function poker() {
+    window.location.href = "pokerdealer.html"
 }
 
 const rouletteButtonEl = document.getElementById("rouletteButton");
 rouletteButtonEl.addEventListener("click", roulette)
 
-function roulette(){
-    console.log("Diddy")
+function roulette() {
+    window.location.href = "roulettedealer.html"
 }
