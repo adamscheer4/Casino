@@ -18,14 +18,56 @@ p {
 .flex {
     display: flex;
     justify-content: space-evenly;
+
+
 }
 
-.blackjackFlex {
+.Flex2 {
   display: flex;
   justify-content: flex-start;
 }
 
 button {
-    background-color: #ffffff;
+    background-color: "white";
     font-size: 20px;
+    justify-content: space-evenly;
 }
+
+.game-container {
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  background: #2e8b57;
+}
+
+.hand {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.card {
+  background: white;
+  color: black;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#hit-button { background-color: #1e90ff; }
+#stand-button { background-color: #ff8c00; }
+#restart-button { background-color: #dc143c; }

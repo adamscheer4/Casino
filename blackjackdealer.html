@@ -1,23 +1,36 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gambling</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <title>Blackjack Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <main>
-        <h1>Dealer</h1>
-        <div class="blackjackFlex">
-            <button id="backButton">Back to Home</button>
-        </div>
-    </main>
+  <div class="game-container">
+    <h1>Blackjack</h1>
 
-    <script src="blackjack.js"></script>
+    <div class="section">
+      <h2>Dealer</h2>
+      <div id="dealer-hand" class="hand"></div>
+      <p id="dealer-score">Score: 0</p>
+    </div>
+
+    <div class="section">
+      <h2>You</h2>
+      <div id="player-hand" class="hand"></div>
+      <p id="player-score">Score: 0</p>
+    </div>
+
+    <div class="controls">
+      <button id="hit-button">Hit</button>
+      <button id="stand-button">Stand</button>
+      <button id="restart-button">Restart</button>
+      <button id="back-button">Back</button>
+    </div>
+
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="blackjack.js"></script>
 </body>
-
 </html>

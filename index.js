@@ -19,3 +19,5 @@ rouletteButtonEl.addEventListener("click", roulette)
 function roulette() {
     window.location.href = "roulettedealer.html"
 }
+
+
